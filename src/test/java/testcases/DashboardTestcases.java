@@ -50,7 +50,7 @@ public class DashboardTestcases {
 	  
   }
   
-  @Test(priority=1,description="Verify Legend List")
+  @Test(priority=1,description="Verify Legend List on Application")
   public void VerifyLegendsList() throws IOException {
 	  Reporter.log("\n Total quick Launch options:"+dp.getLegendText());
 	  TestUtility.attachCaptureScreen();
