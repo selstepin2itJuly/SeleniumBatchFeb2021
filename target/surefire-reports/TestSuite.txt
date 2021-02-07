@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 63.792 s <<< FAILURE! - in TestSuite
+testcases.LoginFeatureTest.verifyLoginSuccess  Time elapsed: 16.558 s  <<< FAILURE!
+java.lang.AssertionError
+	at testcases.LoginFeatureTest.verifyLoginSuccess(LoginFeatureTest.java:43)
+
+testcases.DashboardTestcases.beforeClass  Time elapsed: 35.658 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.DashboardTestcases.beforeClass(DashboardTestcases.java:81)
+
+testcases.MyInfoTestcases.beforeClass  Time elapsed: 19.368 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.MyInfoTestcases.beforeClass(MyInfoTestcases.java:67)
+

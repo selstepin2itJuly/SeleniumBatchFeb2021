@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="testcases.DashboardTestcases">
+        <methods>
+          <include name="VerifyQuickLaunchOptionsText"/>
+          <include name="VerifyQuickLaunchOptionsCount"/>
+          <include name="beforeClass"/>
+          <include name="VerifyLegendsList"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testcases.DashboardTestcases -->
+      <class name="testcases.MyInfoTestcases">
+        <methods>
+          <include name="verifyUsersMenuOptions"/>
+          <include name="testTimeout"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="verifyUserName"/>
+        </methods>
+      </class> <!-- testcases.MyInfoTestcases -->
+      <class name="testcases.LoginFeatureTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyLoginSuccess"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testcases.LoginFeatureTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
