@@ -23,6 +23,7 @@ public class TestBase {
 	public static String username;
 	public static String password;
 	
+	//getInstance method to initialize the driver
 	public static WebDriver getInstance() throws IOException
 	{
 		String configFile="./src/main/java/config/config.properties";
